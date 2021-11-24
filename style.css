@@ -1,10 +1,15 @@
+
 body{
     text-align: center;
-    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    background-color: cyan;
 }
 html {
-  scroll-behavior: smooth;
- }
+ scroll-behavior: smooth;
+}
+ul{
+    font-size: large;
+}
+
 #map iframe
 {
     width: 50%;
@@ -22,10 +27,10 @@ html {
 }
 
 #footer{
-height: 20px;
-background-color:white;
-}
- 
+  height: 20px;
+  background-color:white;
+  }
+
 input
 {
     background: grey
@@ -51,9 +56,9 @@ height: 30px;
   border: none;
 }
 
-/* Clearfix (clear floats) */
+
 .row::after {
-  content: "";
+  content:inherit;
   clear: both;
   display: table;
 }
@@ -80,10 +85,6 @@ height: 30px;
 .travel_mainDiv h5 , .travel_mainDiv p
 {
 margin-left: 20px;
-}
-
-#aluminiList img{
-height:250px;
 }
 
 #achievementsID{
@@ -146,21 +147,8 @@ color: #ff7700;
 {
   margin-bottom: 10px;
 }
-
-.modal-content
-{
-  margin-top: 100px;
+p{
+    font-family: fantasy;
+    font-size: medium;
 }
 
-.img_modal
-  {
-    display: inline-block;
-  }
-.p_modal
-  {
-      margin-top: 10px;
-}
-.modal-body
-{
-    text-align: center
-}
